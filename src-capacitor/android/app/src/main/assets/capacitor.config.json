@@ -1,0 +1,7 @@
+{
+  "appId": "br.com.playground.quasar.app",
+  "appName": "Playground App",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www"
+}
