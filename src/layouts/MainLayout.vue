@@ -3,11 +3,11 @@
     <q-header elevated>
       <q-toolbar>
         <q-btn
-          flat
-          dense
-          round
-          icon="menu"
           aria-label="Menu"
+          dense
+          flat
+          icon="menu"
+          round
           @click="toggleLeftDrawer"
         />
 
@@ -21,8 +21,8 @@
 
     <q-drawer
       v-model="leftDrawerOpen"
-      show-if-above
       bordered
+      show-if-above
     >
       <q-list>
         <q-item-label
@@ -31,7 +31,7 @@
           Essential Links
         </q-item-label>
 
-        <EssentialLink
+        <essential-link
           v-for="link in essentialLinks"
           :key="link.title"
           v-bind="link"
